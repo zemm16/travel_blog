@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="utf-8">
+        
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+       <meta name="description" content="Omnifood is a premium food delivery service with the mission to bring affordable and healthy meals to as many people as possible." >
+       <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">              
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,300i,500" rel="stylesheet">
+        
+        <title>New Zealand</title>
+
+        
+   
+
+
+    </head>
+    <body >
+    <header style="background-image:none; height:5vh;">
+        <nav >
+            <div class="row-nav">
+                <ul class="main-nav js--main-nav" >
+                    
+                    <li ><a href="index.html" style="color:#555;">Home</a></li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                <a class="mobile-nav-icon js--nav-icon"><i class="ion-close-round hide"></i></a>
+            </div>
+        </nav>
+    
+        
+    </header>
+    <section class="section-pictures">
+
+       <div class="row-gallery container">
+            <div class="col span-1-of-6 box gal container" >
+                    <img class="gallery-images first-image image" src="resources/images/MeyersRedone.JPG" alt="Germany" >
+                <div class="overlay">We had a wonderful time.</div>
+                        </div>
+                        <div id="myModal" class="modal">
+
+                          <!-- The Close Button -->
+                          <span class="close">&times;</span>
+
+                          <!-- Modal Content (The Image) -->
+                          <img class="modal-content" id="img01">
+
+                          <!-- Modal Caption (Image Text) -->
+                          <div id="caption"></div>
+                          </div>
+           
+            <div class="col span-3-of-6 box gal">
+              
+                    <img class="gallery-images image"  src="resources/images/germ-2.JPG" alt="This is working!" >
+           </div>
+            <div class="col span-2-of-6 box gal">
+                
+                    <img class="gallery-images last-image image" src="resources/images/germ-3.JPG" alt="Germany"> 
+            </div>
+        </div>
+    </section>
+  
+     <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/Gruntfile.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="vendors/js/jquery.waypoints.min.js"></script>  
+     
+    <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = $('.gallery-images');
+        var modalImg = $("#img01");
+        var captionText = document.getElementById("caption");
+        $('.gallery-images').click(function(){
+          modal.style.display = "block";
+          var newSrc = this.src;
+          modalImg.attr('src',newSrc); 
+          captionText.innerHTML = this.alt;
+        });
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+            }    
+    </script>
+    </body>
+</html>

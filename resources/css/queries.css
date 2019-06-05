@@ -1,0 +1,130 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+    .row {padding: 0 2%; }
+
+
+.icon-small { 
+    width: 17px;
+    margin-right: 5px;
+}
+
+
+
+
+/* Small tablet to big tablet: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+       body {font-size: 16px;}
+    section {padding: 30px 0;}
+    .row, 
+    
+    .col { 
+        width: 100%; 
+        margin: 0 0 4% 0%;
+    }
+
+    .about-box-1 {
+        
+        text-align:center;
+    }
+
+    .about-box-2 {
+        
+        text-align:center;
+    }
+ 
+    
+    footer {
+        font-size: 100%;
+        
+    }
+  
+   
+}
+/* Small phonesto small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body {font-size: 16px;}
+    section {padding: 30px 0;}
+    .row, 
+    
+    .col { 
+        width: 100%; 
+        margin: 0 0 4% 0%;
+    }
+    .main-nav {display: none;}
+    
+    .mobile-nav-icon {
+        display: inline-block;
+        margin-right:40px;
+        margin-top:20px;
+    }
+    
+    .hide {
+    display: none;
+}
+    
+    .main-nav {
+        float:left;
+        margin-top: 30px;
+        margin-left: 25px;
+        
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display:block;
+        border: 0;
+        padding: 10px 0;
+        font-size:100%;
+    }
+    
+    .sticky .main-nav {
+
+    margin-top: 10px;
+    
+}
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+        padding: 10px 0px;}
+    
+    .sticky .mobile-nav-icon {margin-top:10px;
+    }
+    .sticky .mobile-nav-icon i {color: #555;}
+    
+    h1 { font-size: 180%;}
+    
+    h2 { font-size: 150%;}
+    
+    .about-box-1 {
+        text-align:center;
+     
+    }
+
+    .about-box-2 {
+        
+        text-align:center;
+    }
+ 
+    
+    footer {
+        font-size: 100%;
+        
+    }
+  
+    
+    
+}
+
+
+/* Small phones: from 0 to 480px */ 
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0;}
+  
+    
+}
+

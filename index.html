@@ -16,10 +16,11 @@
 
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         
-        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">              
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css"> 
+        
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,300i,500" rel="stylesheet">
         
-        <title>Erin Travels</title>
+        <title>My Photos</title>
 
         
    
@@ -27,15 +28,15 @@
 
     </head>
     <body>
-    <header>
+    <header id="home">
         <nav>
-            <div class="row">
-                <h1>Travels</h1>
+            <div class="row-nav">
+                <h1>Photos</h1>
                 <ul class="main-nav js--main-nav">
                     
-                    <li><a href="#features">Home</a></li>
-                    <li><a href="#works">Galleries</a></li>
-                    <li><a href="#cities">About me</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#intro">Gallery</a></li>
+                    <li><a href="#about">About me</a></li>
                 
                 
                 </ul>
@@ -48,6 +49,56 @@
     </header>
         
     <section class="section-intro js--section-intro" id="intro">
-    <h2>Hello!</h2> 
-    <h3>My name is Erin. I have been traveling and here are some pictures to capture my experiences. I hope you enjoy!</h3>
+        <div class="row">
+            <h2>Experiences</h2> 
+            <h3> These pictures are here to illustrate memorable times which have occurred over this past year, and to also help me gain experience in photography. I hope you enjoy! </h3>
+        </div>
     </section>
+        
+    <section class="section-travels js--section-travels" id="gallery">
+
+        <div class="row js--wp-1">
+     
+            <div class="col span-1-of-1 box">
+                <a href="new_zealand_new.html">
+                    <img src="resources/images/49.jpg"  max-height="40" alt="New Zealand">
+                </a>
+                <h3 style="text-align:center">New Zealand</h3>
+                
+            </div>
+      
+        </div>
+    </section>
+        
+<!--
+    <section class="section-about js--section-about" id="about">
+        <div class="row">
+            <h3>About me</h3>
+        </div>
+        <div class="row js--wp-3">
+            <div class="col span-1-of-2 about-box-1">
+            Hi, I'm Erin: a woman who has decided to take off from work for a year to enhance my abilities through my own studies and to also experience other parts of life while I am taking my gap year. My hope is to increase my own sense of identiy and learn how to live life to the fullest.   
+            </div>
+            <div class="col span-1-of-2 about-box-2">
+                 <img src="resources/images/portrait.JPG" alt="Germany" class="rounded-corners">
+            </div>
+        </div>
+
+    </section>
+-->
+    <footer>
+        <div class="row">
+            <p>
+                Copyright &copy; 2019 by Erin Middlemas. All rights reserved.
+            </p>
+        </div>
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/Gruntfile.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>   
+        <script src="resources/js/script.js"></script>
+        
+    </body>
+</html>

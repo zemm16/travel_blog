@@ -573,7 +573,7 @@ html {
 
 #img01 {
     
-    height:auto;;max-width: 100%;
+    height:auto;max-width: 100%;
 }
 /* Modal Content (Image) */
 .modal-content {
@@ -581,18 +581,20 @@ html {
   display: block;
   width: 80%;
   max-width: 700px;
+
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
  #caption {
   margin: auto;
   display: block;
-  width: 80%;
-  max-width: 700px;
+  width: 95%;
+  max-width: 1500px;
   text-align: center;
   color: #fff;
   padding: 10px 0;
   height: 150px;
+  font-size: 140%;
 }
 
 /* Add Animation - Zoom in the Modal */
